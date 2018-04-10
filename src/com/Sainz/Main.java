@@ -11,7 +11,8 @@ public class Main {
         boolean done = false;
         String result = "";
 
-
+        //below has to be == 
+        //alternatively, could do (done != true)
         while (done == false) {
             System.out.println("In the loop");
             System.out.println("Do you want to go again? (Y/N)");
